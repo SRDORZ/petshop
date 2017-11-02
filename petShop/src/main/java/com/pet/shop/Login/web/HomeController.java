@@ -1,6 +1,6 @@
-package com.pet.shop.Login.web;
+package com.pet.shop.login.web;
 
-import com.pet.shop.Login.model.User;
+import com.pet.shop.login.model.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.LockedAccountException;

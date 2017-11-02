@@ -1,13 +1,13 @@
-package com.pet.shop.Login.service;
+package com.pet.shop.login.service;
 
 import com.github.pagehelper.PageInfo;
-import com.pet.shop.Login.model.Resources;
+import com.pet.shop.login.model.Resources;
 
 import java.util.List;
 import java.util.Map;
 
 /**
- * Created by yangqj on 2017/4/25.
+ * Created by zhujr on 2017/4/25.
  */
 public interface ResourcesService extends IService<Resources> {
     PageInfo<Resources> selectByPage(Resources resources, int start, int length);

@@ -1,6 +1,6 @@
-package com.pet.shop.Login.service.impl;
-import com.pet.shop.Login.model.UserRole;
-import com.pet.shop.Login.service.UserRoleService;
+package com.pet.shop.login.service.impl;
+import com.pet.shop.login.model.UserRole;
+import com.pet.shop.login.service.UserRoleService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

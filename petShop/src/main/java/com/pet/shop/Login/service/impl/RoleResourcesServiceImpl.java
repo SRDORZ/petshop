@@ -1,6 +1,6 @@
-package com.pet.shop.Login.service.impl;
-import com.pet.shop.Login.model.RoleResources;
-import com.pet.shop.Login.service.RoleResourcesService;
+package com.pet.shop.login.service.impl;
+import com.pet.shop.login.model.RoleResources;
+import com.pet.shop.login.service.RoleResourcesService;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

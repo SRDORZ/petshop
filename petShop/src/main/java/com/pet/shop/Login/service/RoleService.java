@@ -1,7 +1,7 @@
-package com.pet.shop.Login.service;
+package com.pet.shop.login.service;
 
 import com.github.pagehelper.PageInfo;
-import com.pet.shop.Login.model.Role;
+import com.pet.shop.login.model.Role;
 
 import java.util.List;
 

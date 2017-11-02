@@ -1,12 +1,12 @@
-package com.pet.shop.Login.service.impl;
+package com.pet.shop.login.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.pet.shop.Login.mapper.RoleMapper;
-import com.pet.shop.Login.mapper.RoleResourcesMapper;
-import com.pet.shop.Login.model.Role;
-import com.pet.shop.Login.model.RoleResources;
-import com.pet.shop.Login.service.RoleService;
+import com.pet.shop.login.mapper.RoleMapper;
+import com.pet.shop.login.mapper.RoleResourcesMapper;
+import com.pet.shop.login.model.Role;
+import com.pet.shop.login.model.RoleResources;
+import com.pet.shop.login.service.RoleService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

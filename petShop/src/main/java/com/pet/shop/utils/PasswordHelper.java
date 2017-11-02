@@ -1,7 +1,7 @@
 package com.pet.shop.utils;
 
 
-import com.pet.shop.Login.model.User;
+import com.pet.shop.login.model.User;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.util.ByteSource;
 

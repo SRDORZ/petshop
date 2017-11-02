@@ -1,4 +1,4 @@
-package com.pet.shop.Login.model;
+package com.pet.shop.login.model;
 
 import javax.persistence.Column;
 import javax.persistence.Id;

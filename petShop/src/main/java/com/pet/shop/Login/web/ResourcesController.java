@@ -1,8 +1,8 @@
-package com.pet.shop.Login.web;
+package com.pet.shop.login.web;
 
 import com.github.pagehelper.PageInfo;
-import com.pet.shop.Login.model.Resources;
-import com.pet.shop.Login.service.ResourcesService;
+import com.pet.shop.login.model.Resources;
+import com.pet.shop.login.service.ResourcesService;
 import com.pet.shop.shiro.ShiroService;
 import org.apache.shiro.SecurityUtils;
 import org.springframework.cache.annotation.CacheEvict;

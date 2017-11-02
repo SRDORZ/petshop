@@ -1,7 +1,7 @@
-package com.pet.shop.Login.service;
+package com.pet.shop.login.service;
 
 import com.github.pagehelper.PageInfo;
-import com.pet.shop.Login.model.User;
+import com.pet.shop.login.model.User;
 
 /**
  * Created by yangqj on 2017/4/21.

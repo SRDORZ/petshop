@@ -1,4 +1,4 @@
-package com.pet.shop.Login.service;/*
+package com.pet.shop.login.service;/*
  * The MIT License (MIT)
  *
  * Copyright (c) 2014 abel533@gmail.com

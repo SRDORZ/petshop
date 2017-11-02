@@ -2,8 +2,8 @@ package com.pet.shop.config;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import com.github.pagehelper.util.StringUtil;
-import com.pet.shop.Login.model.Resources;
-import com.pet.shop.Login.service.ResourcesService;
+import com.pet.shop.login.model.Resources;
+import com.pet.shop.login.service.ResourcesService;
 import com.pet.shop.shiro.MyShiroRealm;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;

@@ -1,10 +1,10 @@
-package com.pet.shop.Login.service.impl;
+package com.pet.shop.login.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.pet.shop.Login.mapper.ResourcesMapper;
-import com.pet.shop.Login.model.Resources;
-import com.pet.shop.Login.service.ResourcesService;
+import com.pet.shop.login.mapper.ResourcesMapper;
+import com.pet.shop.login.model.Resources;
+import com.pet.shop.login.service.ResourcesService;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;

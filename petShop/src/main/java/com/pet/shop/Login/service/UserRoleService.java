@@ -1,7 +1,7 @@
-package com.pet.shop.Login.service;
+package com.pet.shop.login.service;
 
 
-import com.pet.shop.Login.model.UserRole;
+import com.pet.shop.login.model.UserRole;
 
 /**
  * Created by yangqj on 2017/4/26.

@@ -1,10 +1,10 @@
-package com.pet.shop.Login.web;
+package com.pet.shop.login.web;
 
 import com.github.pagehelper.PageInfo;
-import com.pet.shop.Login.model.Role;
-import com.pet.shop.Login.model.RoleResources;
-import com.pet.shop.Login.service.RoleResourcesService;
-import com.pet.shop.Login.service.RoleService;
+import com.pet.shop.login.model.Role;
+import com.pet.shop.login.model.RoleResources;
+import com.pet.shop.login.service.RoleResourcesService;
+import com.pet.shop.login.service.RoleService;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

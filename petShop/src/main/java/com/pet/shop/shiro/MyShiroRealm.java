@@ -1,9 +1,9 @@
 package com.pet.shop.shiro;
 
-import com.pet.shop.Login.model.Resources;
-import com.pet.shop.Login.model.User;
-import com.pet.shop.Login.service.ResourcesService;
-import com.pet.shop.Login.service.UserService;
+import com.pet.shop.login.model.Resources;
+import com.pet.shop.login.model.User;
+import com.pet.shop.login.service.ResourcesService;
+import com.pet.shop.login.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;

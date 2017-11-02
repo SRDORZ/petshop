@@ -22,16 +22,16 @@
  * THE SOFTWARE.
  */
 
-package com.pet.shop.Login.service.impl;
+package com.pet.shop.login.service.impl;
 
-import com.pet.shop.Login.service.IService;
+import com.pet.shop.login.service.IService;
 import org.springframework.beans.factory.annotation.Autowired;
 import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;
 
 /**
- * Created by liuzh on 2014/12/11.
+ * Created by zhujr on 2017/11/2
  */
 public abstract class BaseService<T> implements IService<T> {
 
@@ -69,3 +69,4 @@ public abstract class BaseService<T> implements IService<T> {
 
     //TODO 其他...
 }
+

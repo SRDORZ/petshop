@@ -8,11 +8,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by zhujr on 2017/11/2.
- * 数据连接池配置
+ * Created by yangqj on 2017/4/19.
  */
 @Configuration
 public class DruidConfig {
+
     @Bean
     public ServletRegistrationBean druidServlet() {
 

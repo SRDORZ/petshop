@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement
-@MapperScan(basePackages = "com.pet.shop.login.mapper")
+@MapperScan(basePackages = "com.pet.shop.mapper")
 public class PetShopApplication {
 
 	public static void main(String[] args) {

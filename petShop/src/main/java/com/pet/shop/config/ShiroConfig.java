@@ -2,8 +2,8 @@ package com.pet.shop.config;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import com.github.pagehelper.util.StringUtil;
-import com.pet.shop.login.model.Resources;
-import com.pet.shop.login.service.ResourcesService;
+import com.pet.shop.model.Resources;
+import com.pet.shop.service.ResourcesService;
 import com.pet.shop.shiro.MyShiroRealm;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
@@ -25,8 +25,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by zhujr on 2017/11/2.
- * shiro配置
+ * Created by yangqj on 2017/4/23.
  */
 @Configuration
 public class ShiroConfig {
@@ -92,7 +91,7 @@ public class ShiroConfig {
         //<!-- authc:所有url都必须认证通过才可以访问; anon:所有url都都可以匿名访问-->
         //自定义加载权限资源关系
         List<Resources> resourcesList = resourcesService.queryAll();
-        for(Resources resources:resourcesList){
+         for(Resources resources:resourcesList){
 
             if (StringUtil.isNotEmpty(resources.getResurl())) {
                 String permission = "perms[" + resources.getResurl()+ "]";
@@ -204,4 +203,5 @@ public class ShiroConfig {
         sessionManager.setSessionDAO(redisSessionDAO());
         return sessionManager;
     }
+
 }

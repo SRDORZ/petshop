@@ -1,9 +1,9 @@
 package com.pet.shop.shiro;
 
-import com.pet.shop.login.model.Resources;
-import com.pet.shop.login.model.User;
-import com.pet.shop.login.service.ResourcesService;
-import com.pet.shop.login.service.UserService;
+import com.pet.shop.model.User;
+import com.pet.shop.service.ResourcesService;
+import com.pet.shop.service.UserService;
+import com.pet.shop.model.Resources;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -11,6 +11,7 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.subject.SimplePrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 
 import javax.annotation.Resource;
@@ -19,10 +20,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by zhujr on 2017/11/2.
- * shiro认证
+ * Created by zhujr on 2017/11/02.
  */
-public class MyShiroRealm extends AuthorizingRealm{
+public class MyShiroRealm extends AuthorizingRealm {
+
     @Resource
     private UserService userService;
 
@@ -70,11 +71,10 @@ public class MyShiroRealm extends AuthorizingRealm{
     /**
      * 指定principalCollection 清除
      */
-  /*  public void clearCachedAuthorizationInfo(PrincipalCollection principalCollection) {
+    public void clearCachedAuthorizationInfo(PrincipalCollection principalCollection) {
 
         SimplePrincipalCollection principals = new SimplePrincipalCollection(
                 principalCollection, getName());
         super.clearCachedAuthorizationInfo(principals);
     }
-*/
 }

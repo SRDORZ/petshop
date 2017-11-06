@@ -1,7 +1,8 @@
 package com.pet.shop.shiro;
 
 import com.github.pagehelper.util.StringUtil;
-import com.pet.shop.login.service.ResourcesService;
+import com.pet.shop.model.Resources;
+import com.pet.shop.service.ResourcesService;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.filter.mgt.DefaultFilterChainManager;
 import org.apache.shiro.web.filter.mgt.PathMatchingFilterChainResolver;
@@ -10,13 +11,10 @@ import org.crazycake.shiro.RedisSessionDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import com.pet.shop.login.model.Resources;
+import java.util.*;
 
 /**
- * Created by zhujr on 2017/11/2.
+ * Created by zhujr on 2017/11/02.
  */
 @Service
 public class ShiroService {

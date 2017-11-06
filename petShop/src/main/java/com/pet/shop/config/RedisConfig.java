@@ -10,12 +10,11 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 /**
- * Created by zhujr on 2017/11/2.
- * redis配置
+ * Created by yangqj on 2017/4/30.
  */
 @Configuration
 @EnableCaching
-public class RedisConfig extends CachingConfigurerSupport{
+public class RedisConfig extends CachingConfigurerSupport {
     @Value("${spring.redis.host}")
     private String host;
 
@@ -43,4 +42,5 @@ public class RedisConfig extends CachingConfigurerSupport{
 
         return jedisPool;
     }
+
 }

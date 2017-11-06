@@ -11,7 +11,7 @@
         <property name="endingDelimiter" value="`"/>
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="com.study.util.MyMapper"/>
+            <property name="mappers" value="com.pet.shop.util.MyMapper"/>
         </plugin>
 
         <jdbcConnection driverClass="${druid.driver-class}"
@@ -20,11 +20,11 @@
                         password="${druid.password}">
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.study.model" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.pet.shop.model" targetProject="src/main/java"/>
 
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
-        <javaClientGenerator targetPackage="com.study.mapper" targetProject="src/main/java"
+        <javaClientGenerator targetPackage="com.pet.shop.mapper" targetProject="src/main/java"
                              type="XMLMAPPER"/>
 
         <table tableName="%">

@@ -5,3 +5,6 @@
 #自定义了2个用户 admin/admin  user1/user1
 #启动该项目时必须事先启动redis，否则无法登陆
 #登陆网站：localhost:8080/login
+
+#后台SQL监控平台登录地址(必须登录后才能访问)
+#localhost:8080/druid
